@@ -1,0 +1,22 @@
+{
+    "name": "hifaz/testing-jargon",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dghousi",
+            "email": "dawlatzai.ghousi@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^12.4"
+    }
+}
